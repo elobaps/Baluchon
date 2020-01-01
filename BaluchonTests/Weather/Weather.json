@@ -1,0 +1,81 @@
+{
+    "cnt": 2,
+    "list": [
+        {
+            "coord": {
+                "lon": -75.5,
+                "lat": 43
+            },
+            "sys": {
+                "country": "US",
+                "timezone": -18000,
+                "sunrise": 1573732376,
+                "sunset": 1573767605
+            },
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "couvert",
+                    "icon": "04d"
+                }
+            ],
+            "main": {
+                "temp": -4.23,
+                "pressure": 1026,
+                "humidity": 67,
+                "temp_min": -7.22,
+                "temp_max": -1.67
+            },
+            "visibility": 16093,
+            "wind": {
+                "speed": 4.1,
+                "deg": 110
+            },
+            "clouds": {
+                "all": 90
+            },
+            "dt": 1573733367,
+            "id": 5128638,
+            "name": "New York"
+        },
+        {
+            "coord": {
+                "lon": -0.57,
+                "lat": 44.83
+            },
+            "sys": {
+                "country": "FR",
+                "timezone": 3600,
+                "sunrise": 1573714658,
+                "sunset": 1573749352
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "légère pluie",
+                    "icon": "10d"
+                }
+            ],
+            "main": {
+                "temp": 8.03,
+                "pressure": 997,
+                "humidity": 87,
+                "temp_min": 7.22,
+                "temp_max": 8.89
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 7.2,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 73
+            },
+            "dt": 1573733615,
+            "id": 6455058,
+            "name": "Bordeaux"
+        }
+    ]
+}

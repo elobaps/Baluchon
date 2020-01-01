@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Travel" translatesAutoresizingMaskIntoConstraints="NO" id="0zF-Y6-yc7">
+                                <rect key="frame" x="20" y="103" width="374" height="690"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baluchon-logo" translatesAutoresizingMaskIntoConstraints="NO" id="MPV-de-j3R">
+                                <rect key="frame" x="10.5" y="795" width="393" height="77"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.69436544180000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0zF-Y6-yc7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ji6-FV-Jmz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0zF-Y6-yc7" secondAttribute="trailing" constant="20" id="KIb-Jm-8M2"/>
+                            <constraint firstItem="0zF-Y6-yc7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LI0-XH-FKb"/>
+                            <constraint firstItem="MPV-de-j3R" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="10" id="YX4-gM-heZ"/>
+                            <constraint firstItem="0zF-Y6-yc7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="f5b-FI-Odi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MPV-de-j3R" secondAttribute="trailing" constant="10.5" id="jGi-Pd-FeT"/>
+                            <constraint firstItem="MPV-de-j3R" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pol-64-YBz"/>
+                            <constraint firstItem="MPV-de-j3R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10.5" id="s8w-jw-sUE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Travel" width="432" height="690"/>
+        <image name="baluchon-logo" width="393" height="77"/>
+    </resources>
+</document>
